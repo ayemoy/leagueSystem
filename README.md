@@ -9,5 +9,5 @@ I implemented the 3-layer model in this task:
 
 
 
-Then, i compared the performance of different models like KNN, RANDOM FORREST, ANN  and used FOLD CROSS VALIDATION to perform HYPERPARAMETER OPTIMIZATION.
+Then, i compared the performance of different models like KNN, RANDOM FORREST, ANN while using SKLEARN and used FOLD CROSS VALIDATION to perform HYPERPARAMETER OPTIMIZATION.
 In the end of the project i presented the project with the attached file of presentation.

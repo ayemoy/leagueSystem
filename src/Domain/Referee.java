@@ -7,11 +7,31 @@ import java.util.Date;
 public class Referee {
     private String userName;
     private String qualification;
-    private Boolean isHeadReferee;
+    private String isHeadReferee;
     private ArrayList<Game> games;
     private ArrayList<Season> season;
 
-    public Referee(String userName, String qualification, Boolean isHeadReferee) {
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getQualification() {
+        return qualification;
+    }
+
+    public String getIsHeadReferee() {
+        return isHeadReferee;
+    }
+
+    public ArrayList<Game> getGames() {
+        return games;
+    }
+
+    public ArrayList<Season> getSeason() {
+        return season;
+    }
+
+    public Referee(String userName, String qualification, String isHeadReferee) {
         this.userName = userName;
         this.qualification = qualification;
         this.isHeadReferee = isHeadReferee;

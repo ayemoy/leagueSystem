@@ -7,11 +7,31 @@ import java.util.Calendar;
 public class Team {
     private String name;
     private Object personalPage;
+    private String homeField;
     private ArrayList<Game> games;
     private ArrayList<Player> players;
     private ArrayList<Coach> coaches;
     private ArrayList<TeamManager> teamManagers; /////////not sure
     private ArrayList<TeamOwner> teamOwners;
     private FinancialBook financialBook;
-    private Season season;
+    public Season season;
+
+    public Team(String name, String homeField) {
+        this.name = name;
+        this.homeField = homeField;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getHomeField() {
+        return homeField;
+    }
+
+
+
+
+
+
 }
